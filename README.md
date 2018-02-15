@@ -10,7 +10,7 @@ docker pull rudenoise/jdk-sbt
 
 ```bash
 # get a shell
-docker run -ti rudenoise/jdk-sbt
+docker run -ti rudenoise/jdk-sbt /bin/bash
 
 # build local
 docker build -t jdk-sbt:local .
