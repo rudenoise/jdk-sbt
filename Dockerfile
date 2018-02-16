@@ -2,10 +2,7 @@
 FROM openjdk:8u151-jdk-alpine3.7
 
 RUN apk update && \
-    apk upgrade && \
-    apk add --update --no-cache \
-        curl
-
+    apk upgrade
 
 # Env variables
 ENV SBT_VERSION 1.0.2
